@@ -1,0 +1,55 @@
+
+.detail-container{
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  border: 1px solid #ddd;
+ margin: 20px 150px;
+}
+.detail-container .detail-title
+{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    left: 10px;
+    top: 20px;
+    cursor: pointer;
+    width: 30%;
+}
+.detail-container .detail-body{
+    position: relative;
+    align-items: center;
+    color: black;
+    font-size: 13px;
+    left: 10px;
+    top: 20px;
+    cursor: pointer;
+    width: 99%;
+    line-height: 3;
+}
+.detail-header{
+    display: flex;
+}
+i.fas.fa-cloud-download-alt {
+
+    font-size: 20px;
+    padding-left: 15px;
+    color:white;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.detail-export{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    background-color: #3f50b5;
+    display: flex;
+    color: white;
+    text-align: right;
+    border-radius: 4px;
+    top: 15px;
+    left: 58%;
+    cursor: pointer;
+}

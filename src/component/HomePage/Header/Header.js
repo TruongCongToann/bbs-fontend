@@ -8,7 +8,7 @@ const Header = () => {
 
 
     const handleHome = () =>{
-        navigate(path.DETAIL)
+        navigate(path.HOME)
     }
 
   return (
